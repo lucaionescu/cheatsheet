@@ -1,5 +1,5 @@
 ## cheatsheet
-- aws-cli.md
-- docker.md
-- ffmpeg.md
-- imagemagick.md
+- [aws-cli](aws-cli.md)
+- [docker](docker.md)
+- [ffmpeg](ffmpeg.md)
+- [imagemagick](imagemagick.md)
