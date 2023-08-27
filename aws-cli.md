@@ -1,5 +1,5 @@
 ```bash
-# Get the currently used user
+# Get the current user
 aws sts get-caller-identity
 
 # Invoke Sagemaker endpoint
