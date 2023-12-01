@@ -17,6 +17,6 @@ convert "UNPADDED_IMAGE" -background "#ECE7DD" -gravity center -extent 7200x4000
 # Crop video, centered
 ffmpeg -i "INPUT_VIDEO" -filter:v "crop=in_w-30:in_h-18" -c:a copy "OUTPUT_VIDEO"
 
-# Convert Quitcktime screen recording to gif
+# Convert Quicktime screen recording to gif
 ffmpeg -i "SCREEN_RECORDING.MOV" -pix_fmt rgb24 -r 20 -s 400x400 "OUTPUT.GIF"
 ```
