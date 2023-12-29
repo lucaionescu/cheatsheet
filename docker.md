@@ -12,6 +12,9 @@ docker rm $(docker ps -a -q)
 
 # Start a container in interactive mode and remove it after exiting
 docker run -it --rm IMAGE bash
+
+# Access a running container
+docker exec -it CONTAINER_ID SHELL_COMMAD
 ```
 
 ### image
